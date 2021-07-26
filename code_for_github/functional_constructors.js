@@ -27,7 +27,11 @@ function Calculator() {
 let calculator = new Calculator;
 
 console.log(calculator.calculate("5 + 7"));
+calculator.addMethod("*", (a,b)=>a * b);
 
+console.log(calculator);
+
+console.log(calculator.calculate("3 * 3"));
 
 
 
